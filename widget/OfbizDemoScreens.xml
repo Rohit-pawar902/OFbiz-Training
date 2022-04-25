@@ -49,6 +49,8 @@ under the License.
             <widgets>
                 <decorator-screen name="main-decorator" location="${parameters.mainDecoratorLocation}">
                     <decorator-section name="body">
+                        <label>${parameters}</label>
+                        <label>${context}</label>
                         <section>
                             <condition>
                                 <if-has-permission permission="OFBIZDEMO" action="_VIEW"/>

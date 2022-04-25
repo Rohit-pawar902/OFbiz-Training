@@ -14,14 +14,14 @@
 </head>
 <body data-offset="125">
 <h4 align="center"> ==================Page PreBody Starts From Decorator Screen========================= </h4>
-<div class="container menus" id="container">
+<div class="container menus card" id="container">
     <div class="row">
-        <div class="col-sm-12">
+        <div class="col-sm-12 card-body">
             <ul id="page-title" class="breadcrumb">
                 <li>
-                    <a href="<@ofbizUrl>main</@ofbizUrl>">Main1</a>
+                    <a href="<@ofbizUrl>main</@ofbizUrl>">Main2</a>
                 </li>
-                <li class="active"><span class="flipper-title">w</span></li>
+                <li class="active"><span class="flipper-title">${(StringUtil.wrapString(uiLabelMap[titleProperty]))}</span></li>
                 <li class="pull-right">
                     <a href="<@ofbizUrl>logout</@ofbizUrl>" title="${uiLabelMap.CommonLogout}">logout</i></a>
                 </li>
